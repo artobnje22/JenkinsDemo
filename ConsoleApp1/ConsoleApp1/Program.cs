@@ -13,12 +13,10 @@ namespace ConsoleApp1
             int a = 0;
             a = int.MaxValue;
             Console.WriteLine(a);
-            checked
-            {
-                a++;
-                Console.WriteLine(a);
-            }
+            a++;
+            Console.WriteLine(a);
             Console.ReadKey();
+            //haha
         }
         static void Main(string[] args)
         {
